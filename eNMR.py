@@ -2,8 +2,8 @@
 # This is the eNMR class. THE library for the evaluation of bruker-eNMR-spectra based on the VC-PowerSource of the
 # Schönhoff working group.
 # It works with the volt-increment method which calculates the respective voltage with the VC-list
-# Further Implementation can be asked for at f_schm52@wwu.de
-
+# Further Implementation can be asked for at f_schm52@wwu.de or nairolf.schmidt@gmail.com
+ 
 import matplotlib as mpl
 # .use("pgf")
 # pgf_with_custom_preamble = {
@@ -21,9 +21,7 @@ import numpy as np
 import pandas as pd
 import scipy.optimize
 from re import findall
-# import 
 from IPython.display import clear_output
-# from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import huber as hub
 
 
