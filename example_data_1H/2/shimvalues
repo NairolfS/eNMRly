@@ -1,0 +1,62 @@
+# Tue Mar 13 11:27:12 2018
+#$$PROBEID=11
+#$$PROBEINFO=5 mm MIC Z127367/0011
+#$$PICSINFO=Z127367_0011_11.par
+#$$SHIMID=312532
+#
+# Active Shim Gradients
+#
+Z           		5120            
+Z2          		-81800          
+Z3          		42350           
+Z4          		-50000          
+Z5          		2600            
+X           		-8850           
+XZ          		-6000           
+XZ2         		0               
+Y           		80              
+YZ          		-8200           
+YZ2         		0               
+XY          		-16400          
+XYZ         		0               
+(X2-Y2)     		-500            
+(X2-Y2)Z    		0               
+X3          		0               
+Y3          		0               
+#
+# Lock Parameter
+#
+FIELD		8576.586
+LOCKPHASE		252.900 
+LOCKPOWER		-8.000  
+LOCKGAIN		97.200  
+LOCKDC		-49.000 
+LOCKSHIFT		4.700   
+LOOPGAIN		-5.000  
+LOOPTIME		0.350   
+LOOPFILTER		100.000 
+#
+IEEE64_VERSION_CODE 1
+#
+# Shim currents 
+#
+SHIM_SETTING [1 ]  2483.20000000   
+SHIM_SETTING [2 ]  -40491.00000001 
+SHIM_SETTING [3 ]  22276.10000000  
+SHIM_SETTING [4 ]  -26300.00000000 
+SHIM_SETTING [5 ]  1367.60000000   
+SHIM_SETTING [6 ]  -4655.10000000  
+SHIM_SETTING [7 ]  -3156.00000000  
+SHIM_SETTING [8 ]  0.00000000      
+SHIM_SETTING [9 ]  -263.00000000   
+SHIM_SETTING [10]  -8626.40000000  
+SHIM_SETTING [11]  42.08000000     
+SHIM_SETTING [12]  -4313.20000000  
+SHIM_SETTING [13]  -0.00000000     
+SHIM_SETTING [14]  0.00000000      
+SHIM_SETTING [15]  0.00000000      
+SHIM_SETTING [16]  -0.00000000     
+SHIM_SETTING [17]  0.00000000      
+SHIM_SETTING [18]  0.00000000      
+SHIM_SETTING [19]  0.00000000      
+SHIM_SETTING [20]  0.00000000      

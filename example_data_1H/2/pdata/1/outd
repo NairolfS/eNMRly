@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= f_schm52
+$$ 2018-03-13 11:04:20.436 +0100  f_schm52@schoen-nmr
+$$ /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/pdata/1/outd
+$$ process /opt/topspin3.2/prog/au/bin/iexpno
+##$CURPLOT= <Cups-PDF>
+##$CURPRIN= <$Cups-PDF>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

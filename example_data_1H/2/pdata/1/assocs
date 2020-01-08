@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.0.3
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 10	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= f_schm52
+$$ 2018-04-14 23:04:53.996 +0200  florians@flos-linux
+$$ /home/florians/Sciebo/Python/NMR Projects/data/Lukas/LiG4EMImTFSA2_1H/2/pdata/1/assocs
+$$ process /opt/topspin4.0.3/prog/mod/dataserver
+##$MULTDISP= <>
+##END=

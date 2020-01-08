@@ -1,0 +1,23 @@
+##TITLE= Audit trail, TopSpin 4.0.3
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= florians
+$$ /home/florians/Sciebo/Python/NMR Projects/data/Lukas/LiG4EMImTFSA2_1H/2/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-03-13 14:10:11.454 +0100>,<f_schm52>,<schoen-nmr>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-03-13 11:19:01.238 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       0A FE E6 AA 3B DD 78 B9 62 E1 41 B3 D1 FD 1F 97
+       data hash MD5: 19998 * 21
+       CC 1A D6 C5 C6 DB 0A C3 8C F0 25 8C 6E E8 8A 95>)
+(   2,<2018-04-14 21:11:01.370 +0200>,<florians>,<flos-linux>,<proc2d>,<TopSpin 4.0.3>,
+      <Start of raw data processing
+       xf2 F2: SI = 64K WDW = 1 LB = 0.3 FT_mod = 6 PKNL = 1 F1: SI = 32
+       data hash MD5: 64K * 32
+       16 42 21 6C 76 E3 AB 7B A3 62 81 48 02 FF 85 DD>)
+##END=
+
+$$ hash MD5
+$$ 21 EA 5B 5D A4 6C BD A6 7F AA 87 B5 52 CC A8 94

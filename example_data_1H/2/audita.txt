@@ -1,0 +1,18 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= f_schm52
+$$ /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2018-03-13 14:10:11.454 +0100>,<f_schm52>,<schoen-nmr>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2018-03-13 11:19:01.238 +0100,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       0A FE E6 AA 3B DD 78 B9 62 E1 41 B3 D1 FD 1F 97
+       data hash MD5: 19998 * 21
+       CC 1A D6 C5 C6 DB 0A C3 8C F0 25 8C 6E E8 8A 95>)
+##END=
+
+$$ hash MD5
+$$ C6 EC 49 F4 DE CC 39 4B 32 30 FD 15 48 19 8A 5A

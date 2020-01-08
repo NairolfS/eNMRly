@@ -1,0 +1,1119 @@
+Tue Mar 13 11:05:07 {CET} 2018 -----------------------------------------------------------------
+Tue Mar 13 11:05:07 {CET} 2018 diff version diff-4.13 started from TopSpin version 3.2
+Tue Mar 13 11:05:07 {CET} 2018 initAcqu: nbl = 1
+Tue Mar 13 11:05:07 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:07 {CET} 2018 initReadXml
+Tue Mar 13 11:05:10 {CET} 2018 window restarted by procedure selectExperiment
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 24
+Tue Mar 13 11:05:10 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 0 1.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 1 1.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 2 1.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 3 1.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 4 0.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 5 0.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 6 0.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 7 1.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 8 0.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 9 0.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 10 0.0
+Tue Mar 13 11:05:10 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 11 1.0
+Tue Mar 13 11:05:10 {CET} 2018 restartWindow: diff-storeparToDisk --> call restartWindow2
+Tue Mar 13 11:05:10 {CET} 2018 restartWindow:  Active dataset: /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/acqu
+Tue Mar 13 11:05:10 {CET} 2018 initReadXml
+Tue Mar 13 11:05:10 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:10 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:05:11 {CET} 2018 dataset modified using new gradient calibration constant
+Tue Mar 13 11:05:11 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:05:11 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:05:11 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:05:11 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:05:11 {CET} 2018 readPar: t1par parameter FITTYPE set to -1 due to error: ERR_TERM
+Tue Mar 13 11:05:12 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:12 {CET} 2018 readPar: t1par parameter FITTYPE set to -1 due to error: ERR_TERM
+Tue Mar 13 11:05:12 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:13 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 38
+Tue Mar 13 11:05:13 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 1
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 8e-5
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.000232
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 1
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 0.99995
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 9.99999999999995e-6
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 9.99999999999995e-6
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 5e-6
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.0010567999999999999
+Tue Mar 13 11:05:13 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 0.9995835000000001
+Tue Mar 13 11:05:13 {CET} 2018 t1command = varGrad 1.06 0.23 4257.638 10 0 256 50 3 7.406e-06 difflist
+Tue Mar 13 11:05:13 {CET} 2018 selectExp: diff-storeparToDisk
+Tue Mar 13 11:05:16 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 6
+Tue Mar 13 11:05:16 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:16 {CET} 2018 diff-storeparToDisk tcl-storepar PULPROG FS_eNMR
+Tue Mar 13 11:05:16 {CET} 2018 diff-storeparToDisk tcl-storepar USERA2 FS_eNMR
+Tue Mar 13 11:05:16 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:05:16 {CET} 2018 t1command = varGrad 1.06 0.23 4257.638 10 0 256 50 3 7.406e-06 difflist
+Tue Mar 13 11:05:16 {CET} 2018 restartWindow: diff-storeparToDisk --> call restartWindow2
+Tue Mar 13 11:05:16 {CET} 2018 restartWindow:  Active dataset: /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/acqu
+Tue Mar 13 11:05:16 {CET} 2018 initReadXml
+Tue Mar 13 11:05:16 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:17 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:05:17 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:05:17 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:05:17 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:05:17 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:05:17 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:17 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:17 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:18 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:18 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:22 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:23 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 40
+Tue Mar 13 11:05:23 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 1
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 0.99995
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 1.1600000000000052e-5
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 1.1600000000000052e-5
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 6.600000000000046e-6
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.00158
+Tue Mar 13 11:05:23 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 0.9983535
+Tue Mar 13 11:05:23 {CET} 2018 t1command = varGrad 1.58 0.50 4257.638 10 0 256 50 3 1.09e-06 difflist
+Tue Mar 13 11:05:23 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:05:23 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:26 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 6
+Tue Mar 13 11:05:26 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:26 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.0492166
+Tue Mar 13 11:05:26 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:05:26 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 0.8999335
+Tue Mar 13 11:05:26 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 256 50 3 1.544e-08 difflist
+Tue Mar 13 11:05:26 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:05:26 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:29 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 10
+Tue Mar 13 11:05:29 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:29 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:29 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:29 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.0492166
+Tue Mar 13 11:05:29 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:05:29 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 0.8999335
+Tue Mar 13 11:05:29 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 256 50 3 1.544e-08 difflist
+Tue Mar 13 11:05:29 {CET} 2018 restartWindow: diff-storeparToDisk --> call restartWindow2
+Tue Mar 13 11:05:29 {CET} 2018 restartWindow:  Active dataset: /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/acqu
+Tue Mar 13 11:05:29 {CET} 2018 initReadXml
+Tue Mar 13 11:05:29 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:29 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:05:29 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:05:29 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:05:29 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:05:29 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:05:29 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:30 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:30 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:30 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:31 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 40
+Tue Mar 13 11:05:31 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 1
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 1.00099
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.0492266
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:05:31 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 0.8997535
+Tue Mar 13 11:05:31 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 256 50 3 1.54e-08 difflist
+Tue Mar 13 11:05:31 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:05:32 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:32 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:35 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:35 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:36 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 32
+Tue Mar 13 11:05:36 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8984735
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 1.00099
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 256
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 256
+Tue Mar 13 11:05:36 {CET} 2018 diff-storeparToDisk tcl-storepar NS 1
+Tue Mar 13 11:05:36 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 256 50 3 1.54e-08 difflist
+Tue Mar 13 11:05:36 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:05:36 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:39 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:39 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:40 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:40 {CET} 2018 defaultSwitchRamp 0
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 30
+Tue Mar 13 11:05:40 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.30016
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 256
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 256
+Tue Mar 13 11:05:40 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:05:40 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 256 50 3 5.157e-11 difflist
+Tue Mar 13 11:05:40 {CET} 2018 restartWindow: diff-storeparToDisk --> call restartWindow2
+Tue Mar 13 11:05:40 {CET} 2018 restartWindow:  Active dataset: /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/acqu
+Tue Mar 13 11:05:40 {CET} 2018 initReadXml
+Tue Mar 13 11:05:40 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:40 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:05:40 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:05:40 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:05:40 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:05:40 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:05:40 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:41 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:41 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:41 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:42 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:42 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 42
+Tue Mar 13 11:05:42 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 0.9999491125702954
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.0492266
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:05:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8982835000000007
+Tue Mar 13 11:05:42 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 256 50 3 5.16e-11 difflist
+Tue Mar 13 11:05:42 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:05:43 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:44 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:44 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:45 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:45 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:46 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:49 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:49 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:50 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 256
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 26
+Tue Mar 13 11:05:50 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 3.4600315313851056
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:50 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:50 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 256 50 3 5.16e-11 difflist
+Tue Mar 13 11:05:50 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:05:50 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:51 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:05:51 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 30
+Tue Mar 13 11:05:52 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 5
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 8
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 3.4600315313851056
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:52 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:05:52 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:05:52 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 30
+Tue Mar 13 11:05:55 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar NS 1
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar L 1 1
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar DS 0
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.0492266
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8982835000000007
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.001
+Tue Mar 13 11:05:55 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:05:55 {CET} 2018 restartWindow: diff-storeparToDisk --> call restartWindow2
+Tue Mar 13 11:05:55 {CET} 2018 restartWindow:  Active dataset: /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/acqu
+Tue Mar 13 11:05:55 {CET} 2018 initReadXml
+Tue Mar 13 11:05:55 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:55 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:05:55 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:05:55 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:05:55 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:05:55 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:05:55 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:55 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:05:55 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:55 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:05:55 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:05:55 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 44
+Tue Mar 13 11:05:55 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.001
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 3.4600315313851056
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.048326600000000004
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:05:55 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8982935
+Tue Mar 13 11:05:55 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:05:55 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 22
+Tue Mar 13 11:05:57 {CET} 2018 store NBL = 1
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.048326600000000004
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8982935
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:05:57 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:05:57 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:05:57 {CET} 2018 restartWindow: diff-storeparToDisk --> call restartWindow2
+Tue Mar 13 11:05:57 {CET} 2018 restartWindow:  Active dataset: /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/acqu
+Tue Mar 13 11:05:57 {CET} 2018 initReadXml
+Tue Mar 13 11:05:57 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:05:57 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:05:57 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:05:57 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:05:57 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:05:57 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:05:57 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:58 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:05:58 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:05:58 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:05:58 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:05:58 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 54
+Tue Mar 13 11:06:05 {CET} 2018 store NBL = 1
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 3.4600315313851056
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 5 SINE.100
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar P 19 2000.0
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 3.64
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.0452916
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8982835000000007
+Tue Mar 13 11:06:05 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.001
+Tue Mar 13 11:06:05 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:06:05 {CET} 2018 restartWindow: diff-storeparToDisk --> call restartWindow2
+Tue Mar 13 11:06:05 {CET} 2018 restartWindow:  Active dataset: /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/acqu
+Tue Mar 13 11:06:05 {CET} 2018 initReadXml
+Tue Mar 13 11:06:05 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:06:05 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:06:05 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:06:05 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:06:05 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:06:05 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:06:05 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:06:05 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:05 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:06:05 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:05 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:05 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:09 {CET} 2018 Exit
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 56
+Tue Mar 13 11:06:09 {CET} 2018 store NBL = 1
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 3.4600315313851056
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 5 SINE.100
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar P 19 2000.0
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 3.64
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.0453016
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8982935
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar PULPROG FS_eNMR
+Tue Mar 13 11:06:09 {CET} 2018 diff-storeparToDisk tcl-storepar USERA2 FS_eNMR
+Tue Mar 13 11:06:09 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:06:42 {CET} 2018 -----------------------------------------------------------------
+Tue Mar 13 11:06:42 {CET} 2018 diff version diff-4.13 started from TopSpin version 3.2
+Tue Mar 13 11:06:42 {CET} 2018 initAcqu: nbl = 1
+Tue Mar 13 11:06:42 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:06:42 {CET} 2018 initReadXml
+Tue Mar 13 11:06:42 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:06:42 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:06:43 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:06:43 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:06:43 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:06:43 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:06:43 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:06:43 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:43 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:06:43 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:43 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:43 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:48 {CET} 2018 Exit
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 78
+Tue Mar 13 11:06:48 {CET} 2018 store NBL = 1
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 0 1.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 1 1.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 2 1.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 3 1.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 4 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 5 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 6 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 7 1.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 8 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 9 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 10 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 11 1.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 3.4600315313851056
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 5 SINE.100
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar P 19 2000.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 3.64
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.044301600000000003
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8973035
+Tue Mar 13 11:06:48 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.0015
+Tue Mar 13 11:06:48 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:06:51 {CET} 2018 -----------------------------------------------------------------
+Tue Mar 13 11:06:51 {CET} 2018 diff version diff-4.13 started from TopSpin version 3.2
+Tue Mar 13 11:06:51 {CET} 2018 initAcqu: nbl = 1
+Tue Mar 13 11:06:51 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:06:51 {CET} 2018 initReadXml
+Tue Mar 13 11:06:51 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:06:51 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:06:51 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:06:51 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:06:51 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:06:51 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:06:51 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:06:51 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:51 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:06:51 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:51 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:51 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:52 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:52 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:53 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:53 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:53 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:53 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:53 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:06:54 {CET} 2018 Exit
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 84
+Tue Mar 13 11:06:54 {CET} 2018 store NBL = 1
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 0 1.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 1 1.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 2 1.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 3 1.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 4 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 5 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 6 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 7 1.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 8 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 9 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 10 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 11 1.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 3.4600315313851056
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 5 SINE.100
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar P 19 2000.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 3.64
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.044301600000000003
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8973135
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 5
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 8
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar NS 1
+Tue Mar 13 11:06:54 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.0015
+Tue Mar 13 11:06:54 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:08:49 {CET} 2018 -----------------------------------------------------------------
+Tue Mar 13 11:08:49 {CET} 2018 diff version diff-4.13 started from TopSpin version 3.2
+Tue Mar 13 11:08:49 {CET} 2018 initAcqu: nbl = 1
+Tue Mar 13 11:08:49 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:08:49 {CET} 2018 initReadXml
+Tue Mar 13 11:08:49 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:08:49 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:08:49 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:08:49 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:08:49 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:08:49 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:08:49 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:08:49 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:49 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:08:49 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:49 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:49 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:50 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:50 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:50 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:50 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:50 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:50 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:50 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:53 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 84
+Tue Mar 13 11:08:53 {CET} 2018 store NBL = 1
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 0 1.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 1 1.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 2 1.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 3 1.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 4 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 5 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 6 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 7 1.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 8 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 9 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 10 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 11 1.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 13.840126125540422
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 5 SINE.100
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar P 19 2000.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 3.64
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.044301600000000003
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8973234999999997
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar L 1 1
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar NS 1
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 5
+Tue Mar 13 11:08:53 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 8
+Tue Mar 13 11:08:53 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:08:53 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:08:53 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:08:56 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:56 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:56 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:59 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:08:59 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:09:00 {CET} 2018 Exit
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 38
+Tue Mar 13 11:09:00 {CET} 2018 store NBL = 1
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 13.840126125540422
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 27.68025
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 3.64
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 5
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 8
+Tue Mar 13 11:09:00 {CET} 2018 diff-storeparToDisk tcl-storepar NS 1
+Tue Mar 13 11:09:00 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 2.014e-11 difflist
+Tue Mar 13 11:09:33 {CET} 2018 -----------------------------------------------------------------
+Tue Mar 13 11:09:33 {CET} 2018 diff version diff-4.13 started from TopSpin version 3.2
+Tue Mar 13 11:09:33 {CET} 2018 initAcqu: nbl = 1
+Tue Mar 13 11:09:33 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:09:33 {CET} 2018 initReadXml
+Tue Mar 13 11:09:33 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:09:34 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:09:34 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:09:34 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:09:34 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:09:34 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:09:34 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:09:34 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:09:34 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:09:34 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:09:34 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:09:34 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:09:34 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:09:34 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 88
+Tue Mar 13 11:09:38 {CET} 2018 store NBL = 1
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 0 1.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 1 1.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 2 1.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 3 1.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 4 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 5 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 6 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 7 1.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 8 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 9 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 10 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 11 1.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 13.840126125540422
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 27.70966
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 5 SINE.100
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar P 19 2000.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 3.64
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.0433016
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8963335
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.002
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar DS 0
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar L 1 1
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar NS 1
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 5
+Tue Mar 13 11:09:38 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 8
+Tue Mar 13 11:09:38 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 2.01e-11 difflist
+Tue Mar 13 11:09:38 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:09:38 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 20
+Tue Mar 13 11:09:39 {CET} 2018 store NBL = 1
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.0433016
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8963335
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.002
+Tue Mar 13 11:09:39 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 2.01e-11 difflist
+Tue Mar 13 11:09:39 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 0
+Tue Mar 13 11:09:39 {CET} 2018 store NBL = 1
+Tue Mar 13 11:09:39 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 2.01e-11 difflist
+Tue Mar 13 11:09:39 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:10:35 {CET} 2018 -----------------------------------------------------------------
+Tue Mar 13 11:10:35 {CET} 2018 diff version diff-4.13 started from TopSpin version 3.2
+Tue Mar 13 11:10:35 {CET} 2018 initAcqu: nbl = 1
+Tue Mar 13 11:10:35 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:10:35 {CET} 2018 initReadXml
+Tue Mar 13 11:10:35 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:10:35 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:10:35 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:10:35 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:10:35 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:10:35 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:10:35 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:10:35 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:35 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:10:35 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:35 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:35 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:36 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:36 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:36 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:36 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:36 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:39 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:39 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:39 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 88
+Tue Mar 13 11:10:40 {CET} 2018 store NBL = 1
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 0 1.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 1 1.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 2 1.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 3 1.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 4 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 5 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 6 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 7 1.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 8 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 9 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 10 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 11 1.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 13.840126125540422
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 27.70966
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 5 SINE.100
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar P 19 2000.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 3.64
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.044301600000000003
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8973435
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 5
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 8
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar NS 1
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar L 1 1
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar DS 0
+Tue Mar 13 11:10:40 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.002
+Tue Mar 13 11:10:40 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 2.01e-11 difflist
+Tue Mar 13 11:10:40 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:10:40 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:10:42 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:42 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 32
+Tue Mar 13 11:10:42 {CET} 2018 store NBL = 1
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 13.840126125540422
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.30016
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 3.64
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:10:42 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:10:42 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.157e-11 difflist
+Tue Mar 13 11:10:42 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:10:42 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:10:44 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:45 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 16
+Tue Mar 13 11:10:45 {CET} 2018 store NBL = 1
+Tue Mar 13 11:10:45 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:10:45 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 17.300157656925528
+Tue Mar 13 11:10:45 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:10:45 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:10:45 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.30016
+Tue Mar 13 11:10:45 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 4.55
+Tue Mar 13 11:10:45 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:10:45 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:10:45 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.157e-11 difflist
+Tue Mar 13 11:10:45 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:10:45 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 30
+Tue Mar 13 11:10:49 {CET} 2018 store NBL = 1
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar NS 1
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar L 1 1
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar DS 0
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.044301600000000003
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8973435
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.0015
+Tue Mar 13 11:10:49 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.157e-11 difflist
+Tue Mar 13 11:10:49 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 0
+Tue Mar 13 11:10:49 {CET} 2018 store NBL = 1
+Tue Mar 13 11:10:49 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.157e-11 difflist
+Tue Mar 13 11:10:49 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:10:50 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:10:50 {CET} 2018 Exit
+Tue Mar 13 11:10:50 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 0
+Tue Mar 13 11:10:50 {CET} 2018 store NBL = 1
+Tue Mar 13 11:10:52 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:10:52 {CET} 2018 window restarted by procedure up_date new acqu
+Tue Mar 13 11:10:52 {CET} 2018 restartWindow:  Active dataset: /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/acqu
+Tue Mar 13 11:10:52 {CET} 2018 initReadXml
+Tue Mar 13 11:10:52 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:10:52 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:10:52 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:10:52 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:10:52 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:10:52 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:10:52 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:10:52 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:52 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:10:52 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:52 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:52 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 52
+Tue Mar 13 11:10:52 {CET} 2018 store NBL = 1
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 17.300157656925528
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 5 SINE.100
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar P 19 2000.0
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 4.55
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.044301600000000003
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:10:52 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 3.8973535000000004
+Tue Mar 13 11:10:52 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:10:52 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:10:55 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:16:19 {CET} 2018 -----------------------------------------------------------------
+Tue Mar 13 11:16:19 {CET} 2018 diff version diff-4.13 started from TopSpin version 3.2
+Tue Mar 13 11:16:19 {CET} 2018 initAcqu: nbl = 1
+Tue Mar 13 11:16:19 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:16:19 {CET} 2018 initReadXml
+Tue Mar 13 11:16:19 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:16:19 {CET} 2018 readPar: for preemp parameter GRADCC found: 1.23052e+07
+Tue Mar 13 11:16:19 {CET} 2018 readPar: for preemp parameter ZGAIN found: 0
+Tue Mar 13 11:16:19 {CET} 2018 readPar: for preemp parameter ZMEANPWR found: 85
+Tue Mar 13 11:16:19 {CET} 2018 readPar: preemp parameter ZPEAKPWR set to -1 due to error: ERR_TERM
+Tue Mar 13 11:16:19 {CET} 2018 readPar: for preemp parameter ZCOILRES found: 0.83
+Tue Mar 13 11:16:19 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:16:19 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:16:19 {CET} 2018 readPar: for t1par parameter FITTYPE found: 0
+Tue Mar 13 11:16:19 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:16:19 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:16:19 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:16:56 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:16:56 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:01 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:01 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:01 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:01 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:01 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:02 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:02 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:02 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:02 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:02 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:02 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 82
+Tue Mar 13 11:17:02 {CET} 2018 store NBL = 1
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 0 1.0
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 1 1.0
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 2 1.0
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 3 1.0
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 4 0.0
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 5 0.0
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 6 0.0
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 7 1.0
+Tue Mar 13 11:17:02 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 8 0.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 9 0.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 10 0.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar CAGPARS 11 1.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar USERA3 12305200.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 11 2e-5
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar L 15 2
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar L 21 0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 17.300157656925528
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.29462
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar L 13 0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 5 SINE.100
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar P 19 2000.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 4.55
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 5 0.044301600000000003
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 20 0.1
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 1 58.895673499999994
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar D 2 0.0015
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 5
+Tue Mar 13 11:17:03 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 8
+Tue Mar 13 11:17:03 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.16e-11 difflist
+Tue Mar 13 11:17:03 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:17:03 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:17:06 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:06 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:06 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 32
+Tue Mar 13 11:17:06 {CET} 2018 store NBL = 1
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 17.300157656925528
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.30016
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 4.55
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:17:06 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:17:06 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 5 50 3 5.157e-11 difflist
+Tue Mar 13 11:17:06 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:17:06 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:17:06 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:06 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:08 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:08 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 5
+Tue Mar 13 11:17:11 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 21
+Tue Mar 13 11:17:11 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 21
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 42
+Tue Mar 13 11:17:12 {CET} 2018 store NBL = 1
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 21
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 32
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 17.300157656925528
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.30016
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 4.55
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar NS 8
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar L 1 1
+Tue Mar 13 11:17:12 {CET} 2018 diff-storeparToDisk tcl-storepar DS 0
+Tue Mar 13 11:17:12 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 21 50 3 5.157e-11 difflist
+Tue Mar 13 11:17:12 {CET} 2018 FocusOut: diff-storeparToDisk
+Tue Mar 13 11:17:12 {CET} 2018 checkDims: 2D = 1 2Dp = 1
+Tue Mar 13 11:17:17 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 21
+Tue Mar 13 11:17:17 {CET} 2018 CreateDifflist: creating LiG4EMImTFSA2_1H_2 21
+Tue Mar 13 11:17:22 {CET} 2018 Exit
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk: readonly = No nparsStore = 42
+Tue Mar 13 11:17:22 {CET} 2018 store NBL = 1
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar NS 8
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar L 1 1
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar DS 0
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar1 TD 21
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar1 SI 32
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar GPNAM 31 LiG4EMImTFSA2_1H_2
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 0 17.300157656925528
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 1 0.0
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 2 0.0
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar CNST 3 17.30016
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar GPZ 5 4.55
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar GPX 5 0.0
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar GPY 5 0.0
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar L 8 13
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar D 17 0.00010400000000000001
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar L 9 25
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar D 16 0.0002
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar D 18 0.00033600000000000004
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar D 21 0.0005022084490257013
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar D 9 5e-6
+Tue Mar 13 11:17:22 {CET} 2018 diff-storeparToDisk tcl-storepar D 10 5e-6
+Tue Mar 13 11:17:22 {CET} 2018 t1command = varGrad 100.00 0.50 4257.638 10 0 21 50 3 5.157e-11 difflist

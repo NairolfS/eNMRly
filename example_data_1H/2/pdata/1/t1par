@@ -1,0 +1,25 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 660	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= f_schm52
+$$ 2018-03-13 11:17:22.402 +0100  f_schm52@schoen-nmr
+$$ /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/pdata/1/t1par
+$$ process /opt/topspin3.2/prog/au/bin/diff_t1pars
+##$BIGDEL= 100
+##$COMPNO= 1
+##$DRIFT= 50
+##$FCTTYPE= 10
+##$FIDNUMB= 1
+##$FITTYPE= 0
+##$GAMM= 4257.638
+##$GUESSES= (0..23)
+1 5.157e-11 1 5.157e-12 1 5.157e-13 1 1 1 1 1 1 1 5.157e-12 1 5.157e-13
+1 5.157e-14 1 1 1 1 1 1
+##$LISTTYP= <difflist>
+##$LITDEL= 0.5
+##$NUMPNTS= 21
+##$NUMTERM= 2
+##$START= 3
+##END=

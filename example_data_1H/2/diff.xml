@@ -1,0 +1,82 @@
+<diff>
+    <XValues>
+        <X i="  0" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i="  1" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i="  2" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i="  3" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i="  4" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i="  5" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i="  6" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i="  7" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i="  8" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i="  9" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 10" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 11" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 12" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 13" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 14" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 15" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 16" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 17" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 18" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 19" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+        <X i=" 20" g="5.00000e+02" q="1.06441e+05" B="4.46532e+10" d="5.00000e-01" D="1.00000e+02"/>
+    </XValues>
+    <nXValues>21</nXValues>
+    <diffVersion>diff-4.13</diffVersion>
+    <ExpTyp>dste</ExpTyp>
+    <gdir>6</gdir>
+    <unblank>0.02</unblank>
+    <intArea>0</intArea>
+    <drift>50</drift>
+    <rspcStart>3</rspcStart>
+    <lock>off</lock>
+    <gradListName>difflist</gradListName>
+    <hardDur>0.008400000000000001</hardDur>
+    <led>No</led>
+    <ledDur>2.04</ledDur>
+    <spoilRec>No</spoilRec>
+    <spoilRecDur>100.00</spoilRecDur>
+    <decoupling>off</decoupling>
+    <userPulprog>Yes</userPulprog>
+    <pulprog>FS_eNMR</pulprog>
+    <attFactor>0.1</attFactor>
+    <exDiffCoff>5.157e-11</exDiffCoff>
+    <calcExDiffCoff>1</calcExDiffCoff>
+    <gradShapeType>2</gradShapeType>
+    <delta>0.50</delta>
+    <gradPulseTime>0.64</gradPulseTime>
+    <DELTA>100.00</DELTA>
+    <tau>2.15<YesNoValue>Yes</YesNoValue>
+    </tau>
+    <trep>60000.00</trep>
+    <dutyCycle>0.00</dutyCycle>
+    <expDur>2h 48m 0s</expDur>
+    <gradRampType>0</gradRampType>
+    <blank1></blank1>
+    <fctType>10</fctType>
+    <gmax>500.00</gmax>
+    <gstart>500.00<YesNoValue>No</YesNoValue>
+    </gstart>
+    <ngrad>21</ngrad>
+    <initRamps></initRamps>
+    <NS>8</NS>
+    <NR>1</NR>
+    <DS>0</DS>
+    <dummyGrad>No</dummyGrad>
+    <nDummyGrad>0<YesNoValue>No</YesNoValue>
+    </nDummyGrad>
+    <showRampTime>1</showRampTime>
+    <rampUpTime>0.104<YesNoValue>No</YesNoValue>
+    </rampUpTime>
+    <rampDownTime>0.200<YesNoValue>No</YesNoValue>
+    </rampDownTime>
+    <gradstab>1.50<YesNoValue>No</YesNoValue>
+    </gradstab>
+    <spoil>0</spoil>
+    <spoilDur>2.000</spoilDur>
+    <gspoil>131.43</gspoil>
+    <topt></topt>
+    <t1Pars></t1Pars>
+</diff>
+

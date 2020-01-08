@@ -1,0 +1,22 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 52	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= f_schm52
+$$ 2018-03-13 11:18:55.141 +0100  f_schm52@schoen-nmr
+$$ /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/acqu2
+$$ process /opt/topspin3.2/prog/mod/dataserver
+##$ACQT0= 0
+##$BF1= 400.23
+##$FnMODE= 1
+##$NUC1= <1H>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 0
+##$O1= 4165.9699999741
+##$SFO1= 400.23416597
+##$SW= 9.99420701573457
+##$SW_h= 4000
+##$TD= 21
+##END=

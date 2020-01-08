@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 132	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= f_schm52
+$$ 2018-03-13 11:17:22.402 +0100  f_schm52@schoen-nmr
+$$ /opt/topspin3.2/data/Florian/LiG4EMImTFSA2_1H/2/pdata/1/dosy
+$$ process /opt/topspin3.2/prog/au/bin/diff_t1pars
+##$Gamma= 4257.638
+##$Gdist= 100
+##$Glen= 0.5
+##$Nexp= 1
+##$Npars= 7
+##$Nvar= 2
+##END=

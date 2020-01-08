@@ -1,0 +1,258 @@
+# 1 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+;diffDste
+;new version using built in gradient functions as shapes 14.12.2007 KLZ
+;pl2 --> pl12, lock during DELTA removed, comments improved 29.05.2008 KLZ
+;1D mode included 22.08.08 KLZ
+;variable gradient amplitude ramp included 30.09.09 KLZ 
+;new mc syntax and use of ZGOPTNS rather than loop counters 26.07.11 KLZ
+;ZGOPTNS corrected 22.12.2011 KLZ
+;spoilRec included 28.01.2013 KLZ
+;
+
+;edited by Florian Schmidt 16/11/24
+;CLK -- turning on/off the E-pulse and simultaneous incrementation
+;HOLD -- avoiding inkrementation due to CLK
+;RESET -- resets power source
+
+# 17 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+;$CLASS=diff
+;$DIM=2D
+;$TYPE=exp
+
+
+# 1 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Grad.incl" 1
+;Grad2.incl  -  include file for Gradient Spectroscopy
+;   for TCU3
+;
+;avance-version (07/01/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+# 34 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Grad.incl"
+define list<gradient> EA=<EA>
+
+
+# 38 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Grad.incl"
+;$Id: Grad2.incl,v 1.13.8.1 2012/01/31 17:56:17 ber Exp $
+# 22 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR" 2
+
+# 1 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avance.incl" 1
+;Avance3.incl
+;   for AV III
+;
+;avance-version (13/06/17)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 169 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avance.incl"
+;$Id: Avance3.incl,v 1.9.8.3 2013/08/30 09:44:49 ber Exp $
+# 23 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR" 2
+
+# 1 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Grad_Pulse.incl" 1
+;Grad_Pulse.incl 
+;version 13.12.2007 KLZ 
+;redefinition of sin90 removed 21.01.08 KLZ
+
+# 19 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Grad_Pulse.incl"
+# 20 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Grad_Pulse.incl"
+	
+;-------------only to allow the display of some parameters is ased-----------------
+"cnst31=cnst1+cnst2+cnst3"
+
+
+# 26 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Grad_Pulse.incl"
+"l31=l8+l15"
+
+    "l31=l31+l9" 
+
+;d17: gradient ramp up time
+;d16: gradient ramp down time
+;d18: gradient duration
+;p19: 1 gradient duration
+;cnst1: x-gradient maximum amplitude
+;cnst2: y-gradient maximum amplitude
+;cnst3: z-gradient maximum amplitude
+;cnst11: Watergate x-gradient amplitude
+;cnst12: Watergate y-gradient amplitude
+;cnst13: Watergate z-gradient amplitude
+;cnst31: dummy
+;gpnam5: 1 gradient, sine shape
+;gpx5: x-spoiler gradient amplitude
+;gpy5: y-spoiler gradient amplitude
+;gpz5: z-spoiler gradient amplitude
+;l8: number of points for sin or rampUp points for others
+;l9: ramp down points, not used for sin
+;l15: grad shape type, 0 = sine, 1 = trap, 2 = opt
+;l31: dummy
+# 24 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR" 2
+
+
+define list<gradient> diff_ramp=<$GPNAM31>
+# 28 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+"acqt0=0"
+;-----------------------------------------------------------------------------
+
+# 1 "mc_line 31 file /opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR exp. def. part of mc cmd. before ze"
+define delay MCWRK
+define delay MCREST
+define loopcounter t1loop
+"t1loop=0"
+define loopcounter ph1loop
+"ph1loop=0"
+define loopcounter ST1CNT
+"ST1CNT = td1"
+"MCREST = 100u - 100u"
+"MCWRK = 0.250000*100u"
+
+    dccorr
+# 31 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+ze
+# 1 "mc_line 31 file /opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR exp. def. of mc cmd. after ze"
+      MCWRK
+      "phval0 = t1loop * 1"
+      MCWRK setgrad diff_ramp
+# 32 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+10u 
+5m pl1:f1		;set rf power level
+
+# 1 "mc_line 35 file /opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR exp. start label for mc cmd."
+start, MCWRK  * 3
+LBLST1, MCWRK
+  MCREST
+# 36 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+# 45 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+			d1  h2pulse       ;setnmr4|24 or interleave_incr
+			d11 setnmr0|34|32|33 ctrlgrad 0              ; unblank gradient amplifier
+
+;------------------------- Spoiler recovery sequence ------------------------------ 
+# 58 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+
+;-------------------------- Start of dummy gradient loop ---------------------------
+# 73 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+# 74 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+	
+
+				1m setnmr3^30
+				50u setnmr3|28
+				10m
+				1m setnmr3^28
+
+				count, 50u setnmr3|29
+				50u 	setnmr3^29
+								lo to count times c ; use vc-list as transformed voltage list --> take volt inkrement on power source into account!
+				2m setnmr3|30
+# 87 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+;-------------------------- Start of experiment -----------------------------------
+				30u setnmr3|29  	; turn powersource on
+  			
+p1:f1 ph1			        ; 90 degree pulse
+            \n	if ( l15 == 1 ) {  d17 grad{ step( cnst1,  l8)* diff_ramp | step( cnst2,  l8)* diff_ramp | step( cnst3,  l8)* diff_ramp }\n  d18 \n  d16 grad{  diff_ramp( cnst1)-step( cnst1,  l8)* diff_ramp |  diff_ramp( cnst2)-step( cnst2,  l8)* diff_ramp |  diff_ramp( cnst3)-step( cnst3,  l8)* diff_ramp }\n	}\n	if ( l15 == 2 ) {\n  d17 grad{ sin90( cnst1,  l8)* diff_ramp | sin90( cnst2,  l8)* diff_ramp | sin90( cnst3,  l8)* diff_ramp }\n  d18 \n  d16 grad{  diff_ramp( cnst1)-step( cnst1,  l9)* diff_ramp |  diff_ramp( cnst2)-step( cnst2,  l9)* diff_ramp |  diff_ramp( cnst3)-step( cnst3,  l9)* diff_ramp }\n	}\n	if ( l15 == 0 ) {\n  d18 grad{ sin( cnst1,  l8)* diff_ramp | sin( cnst2,  l8)* diff_ramp | sin( cnst3,  l8)* diff_ramp }\n	 d16 groff \n	} 
+			d2				            ; gradient stabilisation time
+			d9 setnmr0^34^32^33 ctrlgrad 7			        ; tau
+			p1:f1 ph2			        ; 90 degree pulse
+
+                d11 setnmr0|34|32|33 ctrlgrad 0			; unblank gradient amplifier
+				p19:gp5					; spoiler gradient, sine shape
+				d2                      ; gradient stabilisation time
+
+			d5 setnmr0^34^32^33 ctrlgrad 7			        ; long tau
+  			d11 setnmr0|34|32|33 ctrlgrad 0 			    ; unblank gradient amplifier
+  			p1:f1 ph3			        ; 90 degree pulse
+            \n	if ( l15 == 1 ) {  d17 grad{ step( cnst1,  l8)* diff_ramp | step( cnst2,  l8)* diff_ramp | step( cnst3,  l8)* diff_ramp }\n  d18 \n  d16 grad{  diff_ramp( cnst1)-step( cnst1,  l8)* diff_ramp |  diff_ramp( cnst2)-step( cnst2,  l8)* diff_ramp |  diff_ramp( cnst3)-step( cnst3,  l8)* diff_ramp }\n	}\n	if ( l15 == 2 ) {\n  d17 grad{ sin90( cnst1,  l8)* diff_ramp | sin90( cnst2,  l8)* diff_ramp | sin90( cnst3,  l8)* diff_ramp }\n  d18 \n  d16 grad{  diff_ramp( cnst1)-step( cnst1,  l9)* diff_ramp |  diff_ramp( cnst2)-step( cnst2,  l9)* diff_ramp |  diff_ramp( cnst3)-step( cnst3,  l9)* diff_ramp }\n	}\n	if ( l15 == 0 ) {\n  d18 grad{ sin( cnst1,  l8)* diff_ramp | sin( cnst2,  l8)* diff_ramp | sin( cnst3,  l8)* diff_ramp }\n	 d16 groff \n	} 
+			d2				            ; gradient stabilisation time
+  			d9 ;ph0               		; tau
+# 107 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+			30u setnmr3^29						;turning off e-pulse
+			30u setnmr3|29						;turning on e-pulse and switching polarization
+
+            \n	if ( l15 == 1 ) {  d17 grad{ step( cnst1,  l8)* diff_ramp | step( cnst2,  l8)* diff_ramp | step( cnst3,  l8)* diff_ramp }\n  d18 \n  d16 grad{  diff_ramp( cnst1)-step( cnst1,  l8)* diff_ramp |  diff_ramp( cnst2)-step( cnst2,  l8)* diff_ramp |  diff_ramp( cnst3)-step( cnst3,  l8)* diff_ramp }\n	}\n	if ( l15 == 2 ) {\n  d17 grad{ sin90( cnst1,  l8)* diff_ramp | sin90( cnst2,  l8)* diff_ramp | sin90( cnst3,  l8)* diff_ramp }\n  d18 \n  d16 grad{  diff_ramp( cnst1)-step( cnst1,  l9)* diff_ramp |  diff_ramp( cnst2)-step( cnst2,  l9)* diff_ramp |  diff_ramp( cnst3)-step( cnst3,  l9)* diff_ramp }\n	}\n	if ( l15 == 0 ) {\n  d18 grad{ sin( cnst1,  l8)* diff_ramp | sin( cnst2,  l8)* diff_ramp | sin( cnst3,  l8)* diff_ramp }\n	 d16 groff \n	} 
+			d2				            ; gradient stabilisation time
+			d9 setnmr0^34^32^33 ctrlgrad 7			        ; tau
+			p1:f1 ph4			        ; 90 degree pulse
+
+                d11 setnmr0|34|32|33 ctrlgrad 0			; unblank gradient amplifier
+				p19:gp5*0.7					; spoiler gradient, sine shape
+				d2                      ; gradient stabilisation time
+# 119 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+			d5 setnmr0^34^32^33 ctrlgrad 7			        ; long tau
+  			d11 setnmr0|34|32|33 ctrlgrad 0 			    ; unblank gradient amplifier
+  			p1:f1 ph5			        ; 90 degree pulse
+            \n	if ( l15 == 1 ) {  d17 grad{ step( cnst1,  l8)* diff_ramp | step( cnst2,  l8)* diff_ramp | step( cnst3,  l8)* diff_ramp }\n  d18 \n  d16 grad{  diff_ramp( cnst1)-step( cnst1,  l8)* diff_ramp |  diff_ramp( cnst2)-step( cnst2,  l8)* diff_ramp |  diff_ramp( cnst3)-step( cnst3,  l8)* diff_ramp }\n	}\n	if ( l15 == 2 ) {\n  d17 grad{ sin90( cnst1,  l8)* diff_ramp | sin90( cnst2,  l8)* diff_ramp | sin90( cnst3,  l8)* diff_ramp }\n  d18 \n  d16 grad{  diff_ramp( cnst1)-step( cnst1,  l9)* diff_ramp |  diff_ramp( cnst2)-step( cnst2,  l9)* diff_ramp |  diff_ramp( cnst3)-step( cnst3,  l9)* diff_ramp }\n	}\n	if ( l15 == 0 ) {\n  d18 grad{ sin( cnst1,  l8)* diff_ramp | sin( cnst2,  l8)* diff_ramp | sin( cnst3,  l8)* diff_ramp }\n	 d16 groff \n	} 
+			d2				            ; gradient stabilisation time
+  			d10 setnmr0^34^32^33 ctrlgrad 7 		    ; tau
+;  			d10 ph0 setnmr0^34^32^33 ctrlgrad 7 		    ; tau
+
+			30u setnmr3^29						; turning off e-pulse
+
+;-------------------------- Start of LED module  -----------------------------------
+# 139 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+# 140 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+;-------------------------- End of LED module  -----------------------------------
+
+
+# 145 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+		go=start ph31                   ; start acquisition
+
+# 1 "mc_line 147 file /opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR exp. mc cmd. in line"
+  MCWRK  ivc wr #0 if #0 zd 
+
+  "t1loop+=1"
+      MCWRK
+      "phval0 = t1loop * 1"
+      MCWRK setgrad diff_ramp
+  lo to LBLST1 times ST1CNT
+  MCWRK 
+  "t1loop=0"
+  MCWRK
+# 148 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+
+		30u setnmr3^30										; turn off hold before next inkrementation loop
+# 155 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+        100m                            ; wait for data storage
+
+
+# 161 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+    	100m rf #0  					    ; reset file pointer
+
+
+# 165 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+	lo to start times l1			    ; l1 = Number of repetitions
+
+	30u	setnmr3^30									;turn hold off before end of experiment
+exit
+
+ph0=0
+ph1= 0 1 2 3
+ph2= 0
+ph3= 2 3
+ph4= 2 2 2 2 0 0 0 0
+ph5= 0
+ph6= 0
+ph7= 0
+ph11= 0
+ph12= 1
+# 184 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+	ph31=0 0 2 2 2 2 0 0
+
+
+;pl1: f1 channel - power level for pulse (default)
+;p1: f1 channel -  90 degree pulse
+;d17: gradient ramp up time
+;d16: gradient ramp down time
+;d18: gradient duration
+;p19: 1 gradient duration - 2*p17
+;d1: relaxation delay; 1-5 * T1
+;d2: gradient stabilisation time
+;d5: DELTA/2 remainder
+;d9: tau remainder
+;d10: tau remainder, used to shift trigger position
+;d11: gradient amplifier unblank delay 200 us
+# 200 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+;ns: 8 * n
+;td1: number of experiments
+;l1: Repetitions of the whole experiment
+
+
+# 206 "/opt/topspin3.2/exp/stan/nmr/lists/pp/user/FS_eNMR"
+;$Id: diffDste,v 1.6.6.3 2013/02/11 15:38:03 ber Exp $
