@@ -338,13 +338,13 @@ class SpecModel(object):
         ax.legend()
         return fig
     
-    def fit(self, xdata, ydata, plot=False, peak_deconvolution=False):
+    def fit(self, xdata, ydata, plot=False, peak_deconvolution=False, parse_complex='real'):
         
         self.result = self.model.fit(ydata, x=xdata, params=self.params)
         
         fig = None
         if plot:
-            fig = self.result.plot()[0]
+            fig = self.result.plot(parse_complex=parse_complex)[0]
         
         if peak_deconvolution and plot:
             ax = fig.gca()
