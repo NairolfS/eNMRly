@@ -6,6 +6,43 @@ import lmfit
 import pandas as pd
 from collections import OrderedDict
 
+
+def set_peaks(m, n=-1, timeout=-1, xlim=None, **plot_kwargs): #,xlim=(0,10)
+    """
+    m : measurement object
+    
+    returns: array of tuples with [(v0, a0), ...] for make_model()
+    ______________________________________________________________
+    should be used in jupyter notebook like this:
+    
+    %matplotlib
+    peaks = set_peaks(m)
+    %matplotlib inline
+    make_model(peaks)    
+    """
+
+    m.plot_spec([0], xlim=xlim, **plot_kwargs)
+    plt.tight_layout()
+    plt.legend([])
+    plt.text(0.95,0.95,'left mouse button: set coordinate \nright mouse button: delete last coordinate\nmiddle mouse button: exit\n',
+         horizontalalignment='right',verticalalignment='top', transform=plt.gca().transAxes)
+    arr = plt.ginput(n=n, timeout=timeout)
+
+    return arr
+
+def make_model(peaks, print_params=True):
+    '''
+    returns a SpecModel()-object with parameters generated from set_peaks()-array
+    '''
+    
+    model = SpecModel(len(peaks))
+    model.set_initial_values(['v%i'%i for i in range(len(peaks))], [i[0] for i in peaks])
+    model.set_initial_values(['a%i'%i for i in range(len(peaks))], [i[1]/100 for i in peaks])
+    if print_params:
+        model.params.pretty_print()
+    return model
+
+
 def reduce_fitted_phases(Measurementobject, SpecModel):
     
     m = Measurementobject
@@ -333,18 +370,26 @@ class SpecModel(object):
         
         if single_peaks:
             for n in range(self.n):
-                ax.plot(xdata, self.calc_single_peak(np.array(xdata), params=self.params, peak=n), '--', label='peak '+str(n))
+                ax.plot(xdata, self.calc_single_peak(np.array(xdata), params=self.params, peak=n).real, '--', label='peak '+str(n))
         ax.plot(np.array(xdata), self.model.eval(x=np.array(xdata), params=self.params).real, c='k', label='start parameters')
         ax.legend()
+        
+        shiftlist = list(filter(lambda x: x[0]=='v', self.params.keys()))
+        for i in range(len(shiftlist)):   
+            x = self.params['v%i'%i].value
+            y = self.params['a%i'%i].value*100
+            s = 'P%i'%i
+            ax.annotate(s, (x,y), fontsize=16)
+            
         return fig
     
-    def fit(self, xdata, ydata, plot=False, peak_deconvolution=False, parse_complex='real'):
+    def fit(self, xdata, ydata, plot=False, peak_deconvolution=False):
         
         self.result = self.model.fit(ydata, x=xdata, params=self.params)
         
         fig = None
         if plot:
-            fig = self.result.plot(parse_complex=parse_complex)[0]
+            fig = self.result.plot()[0]
         
         if peak_deconvolution and plot:
             ax = fig.gca()
